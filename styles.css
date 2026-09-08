@@ -1,0 +1,77 @@
+/*body*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #f0f8ff;
+}
+
+a {
+    color: #2563a6;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color:#fff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/*header*/
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/*section styling*/
+section {
+    margin-bottom: 35px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*education section*/
+.module-results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.module-results-table th,
+.module-results-table td {
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.module-results-table th {
+    border-bottom: 2px solid #555;
+}
+
+.module-results-table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.module-results-table th:nth-child(2),
+.module-results-table td:nth-child(2) {
+    border-left: 1px solid #ddd;
+}
+
+/*footer*/
+footer {
+    text-align:center;
+}
